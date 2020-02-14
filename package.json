@@ -1,0 +1,25 @@
+{
+  "name": "branch-prefix-commit-msg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "branch-prefix-commit-msg": "./index.js $HUSKY_GIT_PARAMS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifmoon/branch-prefix-commit-msg.git"
+  },
+  "author": "ifmoon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifmoon/branch-prefix-commit-msg/issues"
+  },
+  "homepage": "https://github.com/ifmoon/branch-prefix-commit-msg#readme",
+  "dependencies": {
+    "shelljs": "^0.8.3"
+  }
+}
