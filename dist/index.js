@@ -31,3 +31,4 @@ const addBranchNumber = () => {
 if (!shell.cat(commitMsg).stdout.includes('Merge')) {
   addBranchNumber();
 }
+
